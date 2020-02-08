@@ -38,9 +38,9 @@ get_geomarker_name <- function(query_point) {
 ## apply this function across all points
 message('\nfinding closest schwartz grid site index for each point...')
 d <- d %>%
-  mutate(geomarker_name = CB::mappp(d$geometry, get_geomarker_name,
-                                parallel = FALSE,
-                                quiet = FALSE))
+  mutate(geomarker_name = mappp::mappp(d$geometry, get_geomarker_name,
+                                       parallel = FALSE,
+                                       quiet = FALSE))
 
 ## merge back on .row after unnesting .rows into .row
 d <- d %>%
