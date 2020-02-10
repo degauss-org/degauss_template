@@ -1,4 +1,4 @@
-# geomarker_name
+# geomarker_name <a href='https://degauss-org.github.io/DeGAUSS/'><img src='DeGAUSS_hex.png' align="right" height="138.5" /></a>
 
 > short description of geomarker
 
