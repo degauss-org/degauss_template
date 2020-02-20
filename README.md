@@ -2,7 +2,7 @@
 
 > short description of geomarker
 
-[![Docker Build Status](https://img.shields.io/docker/build/degauss/geomarker_name)](https://hub.docker.com/repository/docker/degauss/geomarker_name/tags)
+[![Docker Build Status](https://img.shields.io/docker/automated/degauss/geomarker_name)](https://hub.docker.com/repository/docker/degauss/geomarker_name/tags)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/degauss-org/geomarker_name)](https://github.com/degauss-org/geomarker_name/releases)
 
 ## DeGAUSS example call
