@@ -7,12 +7,17 @@
 
 ## DeGAUSS example call
 
+If `my_address_file_geocoded.csv` is a file in the current working directory with coordinate columns named `lat` and `lon`, then
+
 ```sh
 docker run --rm -v $PWD:/tmp degauss/geomarker_name:0.1 my_address_file_geocoded.csv
 ```
 
+will produce `my_address_file_geocoded_geomarker_name.csv` with an added column named `geomarker_name`.
+
 ## geomarker methods
 
+- if any non-trivial methods were developed for geomarker assessment (i.e. inverse distance weighted averaging), then describe them here
 
 ## geomarker data
 
