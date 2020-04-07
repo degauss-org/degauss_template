@@ -1,8 +1,10 @@
 FROM rocker/r-ver:3.6.1
 
-# install a newer-ish version of renv, but the specific version we want will be restored from the renv lockfile
+# install required version of renv
+RUN R --quiet -e "install.packages('remotes', repos = 'https://cran.rstudio.com')"
+# make sure version matches what is used in the project: packageVersion("renv")
 ENV RENV_VERSION 0.8.3-81
-RUN R --quiet -e "source('https://install-github.me/rstudio/renv@${RENV_VERSION}')"
+RUN R --quiet -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"
 
 WORKDIR /app
 
