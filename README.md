@@ -26,5 +26,5 @@ will produce `my_address_file_geocoded_geomarker_name.csv` with an added column 
 
 ## DeGAUSS details
 
-For detailed documentation on DeGAUSS, including general usage and installation, please see the [DeGAUSS README](https://github.com/degauss-org/DeGAUSS).
+For detailed documentation on DeGAUSS, including general usage and installation, please see the [DeGAUSS homepage](https://degauss.org).
 
